@@ -225,7 +225,6 @@ MOAIProp.extend (
 		end
 		
 		function interface.getRect ( self )			
-			print ( self )
 			local xMin, yMin, zMin, xMax, yMax, zMax = superInterface.getBounds ( self )
 			return xMin, yMin, xMax, yMax
 		end
@@ -354,3 +353,7 @@ MOAICrittercism = MOAICrittercismAndroid or MOAICrittercismIOS
 MOAIFacebook = MOAIFacebookAndroid or MOAIFacebookIOS
 MOAINotifications = MOAINotificationsAndroid or MOAINotificationsIOS
 MOAITapjoy = MOAITapjoyAndroid or MOAITapjoyIOS
+
+function adventureVersion()
+    return "adventure 0.0.1"
+end
