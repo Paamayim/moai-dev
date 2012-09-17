@@ -357,8 +357,11 @@ add_library(moaicore STATIC
 )
 
 target_link_libraries(moaicore
+    pthread
+    rt
+    ssl
+    crypto
     Box2D
-    chipmunk
     tinyxml
     jpeg
     png

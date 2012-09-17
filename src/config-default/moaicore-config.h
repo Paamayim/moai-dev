@@ -6,7 +6,7 @@
 #endif
 
 #ifndef USE_CHIPMUNK
-	#define USE_CHIPMUNK 1
+	#define USE_CHIPMUNK 0
 #endif
 
 #ifndef USE_CURL

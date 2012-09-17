@@ -2,7 +2,11 @@
 // http://getmoai.com
 
 #include "pch.h"
-#include <chipmunk/chipmunk.h>
+
+#if USE_CHIPMUNK
+    #include <chipmunk/chipmunk.h>
+#endif
+
 #include <moaicore/moaicore.h>
 
 extern "C" {
