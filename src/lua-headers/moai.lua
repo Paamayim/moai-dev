@@ -225,7 +225,6 @@ MOAIProp.extend (
 		end
 		
 		function interface.getRect ( self )			
-			print ( self )
 			local xMin, yMin, zMin, xMax, yMax, zMax = superInterface.getBounds ( self )
 			return xMin, yMin, xMax, yMax
 		end
